@@ -37,12 +37,14 @@ This is a simple command-line implementation of the game Blackjack (also known a
 # Code Explanation
 The **game.py** file contains the Python code for the Blackjack game. Here's a brief explanation of the main functions:
 
-**deal_card()** : This function randomly selects a card from the deck and returns it.
-**calculate_score(cards)** : This function takes a list of cards as input and calculates the total score. It accounts for the value of Ace cards and adjusts the score if necessary.
++ **deal_card()** : This function randomly selects a card from the deck and returns it.
+
++ **calculate_score(cards)** : This function takes a list of cards as input and calculates the total score. It accounts for the value of Ace cards and adjusts the score if necessary.
 compare(user_score, computer_score): This function compares the player's score with the computer's score and determines the winner or a draw.
-**play_game()** : This function implements the game logic. It initializes the player's and computer's card lists, deals the initial cards, allows the player to draw more cards or stand, lets the computer draw cards, and determines the winner.
+
++ **play_game()** : This function implements the game logic. It initializes the player's and computer's card lists, deals the initial cards, allows the player to draw more cards or stand, lets the computer draw cards, and determines the winner.
 The game is played by calling the play_game() function.
 
-**Note** : This implementation uses the random module to simulate card drawing. However, it does not simulate a complete deck or track which cards have been drawn. Thus, the game can draw the same card multiple times, which may not be ideal for a real-world blackjack game.
++ **Note** : This implementation uses the random module to simulate card drawing. However, it does not simulate a complete deck or track which cards have been drawn. Thus, the game can draw the same card multiple times, which may not be ideal for a real-world blackjack game.
 
 Feel free to modify and enhance the code to suit your needs and make the game more robust.
